@@ -1,0 +1,1 @@
+本文档针对centos7下的fastDFS文件系统的安装
