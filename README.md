@@ -1,11 +1,11 @@
 ## 本文档针对centos7下的fastDFS文件系统的安装
 ### 0、需要安装 yum install -y gcc-c++
-### 1、官网下载需要的版本（https://github.com/happyfish100/fastdfs.git）
+### 1、官网下载需要的版本（https://github.com/happyfish100/fastdfs.git ）
 ### 2、解压，进入解压目录，参考INSTALL安装文件步骤进行安装
 ### 3、修改/etc/fdfs/tracker.conf、/etc/fdfs/storage.conf配置文件
-### 4、fastDFS提供了nginx扩展模块的形式访问存储的文件，因此下载扩展模块（https://github.com/happyfish100/fastdfs-nginx-module）
+### 4、fastDFS提供了nginx扩展模块的形式访问存储的文件，因此下载扩展模块（https://github.com/happyfish100/fastdfs-nginx-module ）
 ### 5、参考INSTALL安装
-### 6、编译安装nginx，官网下载需要的版本（https://github.com/nginx/nginx）
+### 6、编译安装nginx，官网下载需要的版本（https://github.com/nginx/nginx ）
 ### 7、下载nginx所需依赖
 #### yum install -y pcre-devel zlib-devel openssl-devel 
 ### 8、生成Makefile文件
